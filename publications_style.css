@@ -1,5 +1,4 @@
 body {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,10 +29,21 @@ header * {
 header li {
     text-align: left;
     margin-left: 20px;
-}
 
 #hero .profile-img {
     border-radius: 50%;
+}
+
+Decker+22 h3 {
+    text-align: left;
+}
+
+body h4 {
+    text-align: center;
+}
+
+Decker+22 p {
+    text-align: left;
 }
 
 hr {
