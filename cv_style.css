@@ -1,6 +1,6 @@
 body {
     background: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia20052-spitzer_wise20151003.png") center fixed no-repeat;
-    /* background-size: cover;*/
+    background-size: cover;
     color: white;
     display: flex;
     justify-content: center;
@@ -11,8 +11,6 @@ body {
     background-color: hsl(238, 12%, 17%);
     margin-top: 80px;
     padding: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 header {
