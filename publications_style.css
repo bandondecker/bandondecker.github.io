@@ -1,15 +1,20 @@
 body {
+    background: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia20052-spitzer_wise20151003.png") center fixed no-repeat;
+    /* background-size: cover;*/
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: sans-serif;
-    background-color: #FEFAEC;
+    /*background-color: #FEFAEC;*/
+    background-color: #050537;
     margin-top: 80px;
     padding: 10px;
 }
 
 header {
+    color: black;
     display: flex;
     position: fixed;
     top: 0;
@@ -29,21 +34,18 @@ header * {
 header li {
     text-align: left;
     margin-left: 20px;
-
-#hero .profile-img {
-    border-radius: 50%;
 }
 
-Decker+22 h3 {
-    text-align: left;
+body a:link {
+    color: red;
 }
 
-body h4 {
-    text-align: center;
+header a:link {
+    color: blue;
 }
 
-Decker+22 p {
-    text-align: left;
+h1, h2, h3, h4, p {
+    width: 1041;
 }
 
 hr {
