@@ -36,11 +36,19 @@ header li {
 }
 
 body a:link {
+    color: #57D3FF;
+}
+
+body a:visited {
     color: red;
 }
 
 header a:link {
     color: blue;
+}
+
+header a:visited {
+    color: purple;
 }
 
 h1, h2, h3, h4, p {
