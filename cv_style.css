@@ -10,6 +10,8 @@ body {
     /*background-color: #FEFAEC;*/
     background-color: hsl(238, 12%, 17%);
     margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
     padding: 10px;
 }
 
