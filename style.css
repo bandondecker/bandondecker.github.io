@@ -79,6 +79,10 @@ h1, h2, h3, h4, p {
     padding: 5px;
 }
 
+div.left_align {
+    text-align: left;
+}
+
 hr {
     align-items: center;
     color: white;
