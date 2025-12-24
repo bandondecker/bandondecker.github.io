@@ -5,7 +5,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     font-family: sans-serif;
     /*background-color: #FEFAEC;*/
     background-color: hsl(238, 12%, 17%);
@@ -54,7 +53,12 @@ header a:visited {
     color: purple;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4 {
+    width: 1000;
+    text-align: center;
+}
+
+p {
     width: 1000;
 }
 
@@ -64,6 +68,9 @@ h1, h2, h3, h4, p {
 
 #hero .profile-img {
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row {
